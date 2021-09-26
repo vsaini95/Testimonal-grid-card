@@ -1,0 +1,71 @@
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: hsl(196, 20%, 89%);
+}
+small {
+  opacity: 0.5;
+}
+.card-body {
+  font-size: 13px;
+  line-height: 16px;
+}
+.card-text {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+.card-t {
+  opacity: 0.7;
+}
+h5 {
+  font-size: 15px;
+}
+.card {
+  height: 100%;
+}
+.col-sm-8 {
+  width: 60%;
+}
+.col-sm-4 {
+  width: 40%;
+}
+#pcard {
+  background-color: hsl(263, 55%, 52%);
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  background-size: 22%;
+}
+#border {
+  border: 3px solid #f0d9ff;
+}
+#pborder {
+  border: 3px solid hsl(263, 55%, 52%);
+}
+.rounded-circle {
+  width: 45px;
+  height: 45px;
+}
+.card {
+  width: 90%;
+  box-shadow: 0 0 8px 0 rgb(224, 223, 223);
+}
+#head {
+  margin-left: 8%;
+  margin-top: 8%;
+}
+#shadow {
+  box-shadow: 0 0 8px 0 rgb(43, 42, 42);
+}
+#bshadow {
+  box-shadow: 0 0 8px 0 rgb(121, 120, 120);
+}
+@media screen and (max-width: 566px) {
+  .col-sm-6 {
+    margin-bottom: 30px;
+  }
+  #head {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
